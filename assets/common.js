@@ -8,7 +8,7 @@ requirejs.config({
         jquery:"./jquery/dist/jquery",
         bootstrap:"./bootstrap/dist/js/bootstrap",
         iCheck:'./iCheck/icheck.min',
-        prism:"./prism/prism"
+        prism:"./prismjs/prism"
     },
     shim:{
         bootstrap:['jquery'],
