@@ -8,12 +8,12 @@ requirejs.config({
         jquery:"./jquery/dist/jquery",
         bootstrap:"./bootstrap/dist/js/bootstrap",
         iCheck:'./iCheck/icheck.min',
-        prism:"./prism/prism"
+        metisMenu:'./metisMenu/dist/jquery.metisMenu.min'
     },
     shim:{
         bootstrap:['jquery'],
         iCheck:['jquery'],
-        prism:{exports:"prism"}
+        metisMenu:['jquery']
     }
 });
 
