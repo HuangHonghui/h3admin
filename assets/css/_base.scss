@@ -6,3 +6,12 @@
   float: left;
   width: 200px;
 }
+@media (max-width: 768px) {
+  .page-wrap {
+    margin-left: 0;
+  }
+  .sidebar{
+    float: none;
+    width: 100%;
+  }
+}
